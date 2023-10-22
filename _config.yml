@@ -1,45 +1,73 @@
-# this is only for search engines, it does not appear in the home
-# as long as the json variables name and description are provided
-title: Garret Larson
-description: Personal Website
-baseurl: ""
-url: https://hacked-jekyll.netlify.app
+### your site title here
 
-# this information is shown on the homepage, all fields are optional and
-# can be declared either as a single string or as a string array/hash
-json:
-  name: Garret Larson
-  description:
-    - Hello, I'm Garret.
-    - This is my website.
-    - i'm a nodak native.
-    - a software dev.
-    - an MS in CS major.
-    - specializing in CyOps.
-    - a health & welness nerd.
-  cv: assets/cv.pdf
-  address:
-    - Denver, CO
-  contact:
-    office: Hipster Coffee Shops
-    phone: +1 720 437 9392
-    email: garret.hs.larson@gmail.com
-  profiles:
-    VSCO: https://vsco.co/garrethue/gallery
-    github: https://github.com/garrethue
+title: garret larson
+description: software dev | mscs student
+
+baseurl:  #name of GitHub repository
+url: "garrethue.github.io" #custom url to be used instead of GitHub repository
+email: garret.hs.larson@gmail.com
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Social media links in footer
+#twitter: "#"
+#linkedin: "#"
+#stackoverflow: "#"
+#github: "#"
+#researchgate: "#"
+#orcid: "#"
+#quora: "#"
+#instagram: "#"
+#facebook: "#"
+
+
+# Markdown
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
+
+# optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+    order:
+      - shortProject.md
+      - longerProjectTitle.md
+      - redirect.md
+      - project4.md
+      - project5.md
+      - project6.md
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
 
 exclude:
-  - LICENSE
   - README.md
+  - LICENSE.md
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
-
-whitelist:
-  - jekyll-sitemap
-
-sass:
-  sass_dir: _sass
-  style: compressed
-  sourcemap: never
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank

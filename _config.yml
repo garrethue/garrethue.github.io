@@ -13,17 +13,16 @@ json:
     - Hello, I'm Garret.
     - This is my (tiny) website.
     - I'm a Backend Software Developer.
-    - An MS Computer Science major, specializing in Cyber Operations.
+    - An MS Computer Science major.
+    - specializing in Cyber Ops.
     - A health & welness nerd.
   cv: assets/cv.pdf
   address:
     - Denver, CO
   contact:
-    office: Hipster Coffee Shops in Denver (remote)
+    office: Coffee Shops in Denver (remote work)
     phone: +1 720 437 9392
     email: garret.hs.larson@gmail.com
-  demo: https://hacked-jekyll.netlify.app
-  source: https://github.com/piazzai/hacked-jekyll
   profiles:
     VSCO: https://stackoverflow.com
     github: https://github.com/garrethue

@@ -12,15 +12,17 @@ json:
   description:
     - Hello, I'm Garret.
     - This is my website.
-    - i'm a Software Developer.
+    - i'm a nodak native.
+    - a Software Developer.
     - an MS in CS major.
     - specializing in Cyber Ops.
     - a health & welness nerd.
+    - an uncle.
   resume: assets/cv.pdf
   address:
     - Denver, CO
   contact:
-    office: Denver Hipster Coffee Shops
+    office: Hipster Coffee Shops
     phone: +1 720 437 9392
     email: garret.hs.larson@gmail.com
   profiles:

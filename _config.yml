@@ -11,20 +11,20 @@ json:
   name: Garret Larson
   description:
     - Hello, I'm Garret.
-    - This is my (tiny) website.
-    - I'm a Backend Software Developer.
-    - An MS Computer Science major.
+    - This is my website.
+    - i'm a Software Developer.
+    - an MS in CS major.
     - specializing in Cyber Ops.
-    - A health & welness nerd.
-  cv: assets/cv.pdf
+    - a health & welness nerd.
+  resume: assets/cv.pdf
   address:
     - Denver, CO
   contact:
-    office: Coffee Shops in Denver (remote work)
+    office: Denver Hipster Coffee Shops
     phone: +1 720 437 9392
     email: garret.hs.larson@gmail.com
   profiles:
-    VSCO: https://stackoverflow.com
+    VSCO: https://vsco.co/garrethue/gallery
     github: https://github.com/garrethue
 
 exclude:

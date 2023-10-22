@@ -15,10 +15,9 @@ json:
     - i'm a nodak native.
     - a software dev.
     - an MS in CS major.
-    - specializing in Cyber Ops.
+    - specializing in CyOps.
     - a health & welness nerd.
-    - an uncle.
-  resume: assets/cv.pdf
+  cv: assets/cv.pdf
   address:
     - Denver, CO
   contact:

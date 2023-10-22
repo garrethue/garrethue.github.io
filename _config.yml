@@ -1,36 +1,32 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
-title: Hacked Jekyll
-description: Jekyll microtheme that looks like JSON
+title: Garret Larson
+description: Personal Website
 baseurl: ""
 url: https://hacked-jekyll.netlify.app
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: Place Holder
+  name: Garret Larson
   description:
-    - Hello!
-    - This tiny website
-    - Looks like json
+    - Hello, I'm Garret.
+    - This is my (tiny) website.
+    - I'm a Backend Software Developer.
+    - An MS Computer Science major, specializing in Cyber Operations.
+    - A health & welness nerd.
   cv: assets/cv.pdf
   address:
-    - University of Jekyll
-    - Department of Themes
-    - 123 Main St, Anytown, USA
+    - Denver, CO
   contact:
-    office: Foobar Hall 1.23
-    phone: +1 234 567 890
-    email: username@domain.com
+    office: Hipster Coffee Shops in Denver (remote)
+    phone: +1 720 437 9392
+    email: garret.hs.larson@gmail.com
   demo: https://hacked-jekyll.netlify.app
   source: https://github.com/piazzai/hacked-jekyll
   profiles:
-    facebook: https://www.facebook.com
-    twitter: https://twitter.com
-    instagram: https://www.instagram.com
-    linkedin: https://www.linkedin.com
-    stackoverflow: https://stackoverflow.com
-    github: https://github.com
+    VSCO: https://stackoverflow.com
+    github: https://github.com/garrethue
 
 exclude:
   - LICENSE

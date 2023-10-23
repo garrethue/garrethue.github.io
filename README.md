@@ -1,28 +1,56 @@
-# Gradfolio
+# Chirpy Starter
 
-responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio. [Here's a live demo](https://jitinnair1.github.io/gradfolio/)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-## Features
-- Responsive
-- Respects Dark Mode preference set by the user
-- Projects Page to showcase your work/side projects
-- Easily link to your profiles on ResearchGate and ORCID
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
+from the theme's gem. If you have ever installed this theme gem, you can use the command
+`bundle info --path jekyll-theme-chirpy` to locate these files.
+
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
+able to enjoy the out-of-the-box experience when using feature-rich themes.
+
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
+Jekyll site. The following is a list of targets:
+
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
+```
+
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
+latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+
+## Prerequisites
+
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
+the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 
 ## Installation
-* Click on `Use this template`
-* Your new site should be ready at https://username.github.io/gradfolio/
-* You can now modify the contents and personalise the template
 
-Alternatively, you can [download the source files](https://github.com/jitinnair1/gradfolio/archive/master.zip) and [make changes locally](https://github.com/jitinnair1/gradfolio/wiki/Local-Development). 
+Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
+`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
-## Documentation
+Then clone it to your local machine and run:
 
-Check out the [Wiki](https://github.com/jitinnair1/gradfolio/wiki) for some tips on [publishing to a custom domain](https://github.com/jitinnair1/gradfolio/wiki/Publishing-your-website) or an [indicative list of things to customise before you publish](https://github.com/jitinnair1/gradfolio/wiki/Customising-your-website) 
+```console
+$ bundle
+```
 
-### Also, check out:
+## Usage
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
+## License
 
-PS: If you liked the theme, do star :star: it! Thanks!
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE

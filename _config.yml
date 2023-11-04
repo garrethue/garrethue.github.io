@@ -1,7 +1,7 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
 title: Garret Larson
-description: Personal (Tiny) Website
+description: Personal Website
 baseurl: ""
 # url: https://hacked-jekyll.netlify.app
 
@@ -13,16 +13,18 @@ json:
     - hi, i'm garret.
     - welcome to my site.
     - i'm a software dev.
-    - an ms in cs student
-    - specializing in cyops.
-    - a health nut.
-    - a yogi.
+    - a nodak native.
+    - an mscs student.
+    - enjoys learning about..
+    - reverse engineering.
+    - malware analysis.
+    - health/wellness.
   cv: assets/resume.pdf
   address:
     - Denver, CO
   contact:
     office: hipster coffee shops
-    phone: +1 234 567 890
+    phone: +1 720 437-9392
     email: garret.hs.larson@gmail.com
   # demo: https://hacked-jekyll.netlify.app
   # source: https://github.com/piazzai/hacked-jekyll
